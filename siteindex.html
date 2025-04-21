@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TB Center – Telêmaco Borba</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #00695c;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .hero {
+      width: 100%;
+      height: 300px;
+      background-image: url('https://www.telemacoborba.pr.gov.br/images/imagens/bonde-aereo.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #00695c;
+      margin-bottom: 1rem;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    .feature {
+      flex: 1 1 45%;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      overflow: hidden;
+    }
+    .feature img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .feature h3 {
+      margin: 1rem;
+      color: #00695c;
+    }
+    .feature p {
+      margin: 0 1rem 1rem;
+    }
+    footer {
+      background-color: #004d40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TB Center</h1>
+    <p>Conectando Telêmaco Borba em um só lugar</p>
+  </header>
+
+  <div class="hero"></div>
+
+  <section class="section">
+    <h2>Sobre o Projeto</h2>
+    <p>
+      O TB Center nasceu em 2016 com a proposta de reunir, em um único aplicativo, informações sobre lojas, motoristas, lanchonetes, restaurantes e pontos turísticos de Telêmaco Borba. Antes mesmo da chegada de plataformas como iFood e Uber à cidade, o TB Center já vislumbrava a integração de serviços locais para facilitar o dia a dia dos moradores e visitantes.
+    </p>
+    <p>
+      Agora, em 2025, o projeto retorna com uma abordagem moderna e colaborativa, buscando valorizar o comércio local e promover o turismo na região.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Funcionalidades</h2>
+    <div class="features">
+      <div class="feature">
+        <img src="https://www.telemacoborba.pr.gov.br/images/imagens/centro-comercial.jpg" alt="Centro Comercial de Telêmaco Borba">
+        <h3>Comércio Local</h3>
+        <p>Descubra e apoie as lojas e estabelecimentos da cidade.</p>
+      </div>
+      <div class="feature">
+        <img src="https://www.telemacoborba.pr.gov.br/images/imagens/restaurantes.jpg" alt="Restaurantes em Telêmaco Borba">
+        <h3>Gastronomia</h3>
+        <p>Explore os melhores restaurantes e lanchonetes da região.</p>
+      </div>
+      <div class="feature">
+        <img src="https://www.telemacoborba.pr.gov.br/images/imagens/motoristas.jpg" alt="Motoristas de aplicativo em Telêmaco Borba">
+        <h3>Transporte</h3>
+        <p>Encontre motoristas disponíveis para suas viagens pela cidade.</p>
+      </div>
+      <div class="feature">
+        <img src="https://www.telemacoborba.pr.gov.br/images/imagens/pontos-turisticos.jpg" alt="Pontos turísticos de Telêmaco Borba">
+        <h3>Turismo</h3>
+        <p>Conheça os principais pontos turísticos e culturais de Telêmaco Borba.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 TB Center. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
